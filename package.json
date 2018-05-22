@@ -1,0 +1,32 @@
+{
+  "name": "bs-legacy",
+  "version": "0.1.0",
+  "description": "enable compilation of old bucklescript projects with version 3",
+  "main": "legacy.bs.js",
+  "repository": "https://github.com/Khady/bs-legacy.git",
+  "author": "Louis Roché <louis@louisroche.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Khady/bs-legacy/issues"
+  },
+  "homepage": "https://github.com/Khady/bs-legacy#readme",
+  "keywords": [
+    "bucklescript",
+    "bsb",
+    "reason",
+    "reasonml",
+    "ocaml",
+    "bs-platform"
+  ],
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "peerDependencies": {
+    "bs-platform": "^3.0.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^3.0.0"
+  }
+}
